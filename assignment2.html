@@ -197,14 +197,14 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="section"></h3>
 <p>&nbsp;<strong>Assignment 2</strong></p>
 <p><strong>1. Lab01- 02 in R (Download the .qmd files in Teams) a. Render and upload your files to GitHub website</strong></p>
-<p><strong>b. Be sure to uploaded associated folders (e.g. Lab01.html, Lab01_files, Lab02.html, Lab02_files)</strong></p>
+<p><strong>b. Be sure to uploaded associated folders (e.g.&nbsp;Lab01.html, Lab01_files, Lab02.html, Lab02_files)</strong></p>
 <p><strong>2. Review Chapters 3 to 7 in R4DS, Section 3.5 in Data programming. Run an exploratory data analysis with R using the TEDS2016 dataset (sample codes as follows):</strong></p>
 <p><strong>library</strong>(haven)</p>
 <p>TEDS_2016 &lt;- <strong>read_stata</strong>(“https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true”)</p>
 <p><strong>3. What problems do you encounter when working with the dataset?</strong></p>
 <p>Approximately 3008 places in the dataset was missing values – this is one of the first things I check for.&nbsp; Also, the data for many of the variables goes from one extreme value to another, likely creating outliers and skewness.</p>
 <p><strong>4. How to deal with missing values?</strong></p>
-<p>I typically deal with this by replacing missing values with the value of "0"</p>
+<p>I typically deal with this by replacing missing values with the value of “0”</p>
 <p><strong>5. (Next step) Explore the relationship between Tondu and other variables including female, DPP, age, income, edu, Taiwanese and Econ_worse. What methods would you use?</strong></p>
 <p>I would perform a multivariable, linear regression analysis:</p>
 <p>Call: lm(formula = Tondu ~ female + DPP + Age + income + edu + Taiwanese + Econ_worse, data = TEDS_2016)</p>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <p>edu&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -0.21258&nbsp; &nbsp;&nbsp; 0.03543 -6.000 2.41e-09 ***</p>
 <p>Taiwanese&nbsp;&nbsp; &nbsp; 0.74775&nbsp; 0.09232&nbsp; &nbsp; 8.100 1.05e-15 ***</p>
 <p>Econ_worse&nbsp; -0.23917&nbsp;&nbsp; 0.08454 &nbsp; -2.829&nbsp; 0.00472 **</p>
-<p>Signif. codes:&nbsp; 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' '1</p>
+<p>Signif. codes:&nbsp; 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ’ ’1</p>
 <p>Residual standard error: 1.682 on 1682 degrees of freedom</p>
 <p>Multiple R-squared:&nbsp; 0.1054,&nbsp; Adjusted R-squared:&nbsp; 0.1016</p>
 <p>F-statistic:&nbsp; 28.3 on 7 and 1682 DF,&nbsp; p-value: &lt; 2.2e-16</p>
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estimate Std. Error t value Pr(&gt;|t|)&nbsp;&nbsp;&nbsp;</p>
 <p>(Intercept)&nbsp; 3.90556&nbsp; 0.05864&nbsp; 66.597&nbsp; &lt; 2e-16 ***</p>
 <p>votetsai &nbsp;&nbsp; 0.47293&nbsp; 0.08577&nbsp; 5.514 4.06e-08 ***</p>
-<p>Signif. codes:&nbsp; 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</p>
+<p>Signif. codes:&nbsp; 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ’ ’ 1</p>
 <p>Residual standard error: 1.759 on 1688 degrees of freedom</p>
 <p>Multiple R-squared:&nbsp; 0.01769, Adjusted R-squared:&nbsp; 0.01711</p>
 <p>F-statistic:&nbsp; 30.4 on 1 and 1688 DF,&nbsp; p-value: 4.06e-08</p>
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
 <p>BP = 12.159, df = 1, p-value = 0.0004885</p>
 <p><em>*evidence of significant heteroscedasticity</em></p>
 <p><strong>7. (Next step) Generate frequency table and barchart of the Tondu variable. Assign labels to the variable using the following:</strong></p>
-<p>TEDS_2016$Tondu&lt;-as.numeric(TEDS_2016$Tondu,labels=c(“Unification now", "Status quo, unif. in future", "Status quo, decide later”, “Status quo forever”, “Status quo, indep. in future”, “Independence now", "No response”))</p>
+<p>TEDS_2016$Tondu&lt;-as.numeric(TEDS_2016$Tondu,labels=c(“Unification now”, “Status quo, unif. in future”, “Status quo, decide later”, “Status quo forever”, “Status quo, indep. in future”, “Independence now”, “No response”))</p>
 <p>&nbsp;<img src="images/paste-20CB8223.png" class="img-fluid"></p>
 <p>&nbsp;</p>
 
