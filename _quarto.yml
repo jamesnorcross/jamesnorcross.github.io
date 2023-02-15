@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "James Norcross"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: project.qmd
+        text: Project
+      - href: cv.pdf
+        text: CV
+      - text: Assignments
+        menu:
+        - href: comparison.html
+          text: ComparisonReviewArticle
+        - href: Figure01.pdf
+          text: Figure01
+        - href: assignment1.html
+          text: Assignment1
+        - href: assignment2.html
+          text: Assignment2
+        - href: assignment3.html
+          text: Assignment3
+        - href: Lab01.html
+          text: Lab01
+        - href: Lab02.html
+          text: Lab02
+        - href: Lab03.html
+          text: Lab03
+        
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
+
+editor: visual
+

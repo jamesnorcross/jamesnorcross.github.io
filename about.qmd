@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+This webpage is part of an endeavor of learning in my current doctoral studies to expand my abilities in the field of Data Science. My hopes is through data mining and collaboration with research peers, I can improve my abilities in the collection of data for my current and future research interests.
+
+I work as full-time faculty at Dallas College in the School of Engineering, Technology, Mathematics, and Sciences. I teach courses in information security fundamentals, cybersecurity analysis and operations, and enterprise networking systems.
