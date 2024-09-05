@@ -2,45 +2,68 @@ project:
   type: website
 
 website:
-  title: "James Norcross"
+  page-navigation: true
+  title: "James S. Norcross"
+  description: "James S. Norcross' Professional Website"
+  site-url: "https://www.linkedin.com/in/james-n-9034036/"
+  
+  page-footer:
+    right: "Last page update: 2024"
+    left: "&copy; Copyright 2024, James S. Norcross"
+    
   navbar:
     right:
       - href: index.qmd
-        text: Home
+        text: Home 
       - href: about.qmd
-        text: About
+        text: About Me
       - href: research.qmd
-        text: Research
-      - href: project.qmd
-        text: Project
+        text: Research Focus
+      - text: Data Science Project
+        menu: 
+        - href: "#"  # Placeholder link
+          text: Recent Data Science Project Proposal
+        - href: "#"  # Placeholder link
+          text: Complete Data Science Project
+        - href: "#"  # Placeholder link
+          text: Complete Data Science Project Presentation
       - href: cv.pdf
-        text: CV
+        text: Curriculum Vitae
       - text: Assignments
         menu:
-        - href: comparison.html
-          text: ComparisonReviewArticle
-        - href: Figure01.pdf
+        - href: "#"  # Placeholder link
+          text: Comparison Review Article
+        - href: "#"  # Placeholder link
           text: Figure01
-        - href: assignment1.html
+        - href: "#"  # Placeholder link
           text: Assignment1
-        - href: assignment2.html
+        - href: "#"  # Placeholder link
           text: Assignment2
-        - href: assignment3.pdf
+        - href: "#"  # Placeholder link
           text: Assignment3
-        - href: assignment4.html
+        - href: "#"  # Placeholder link
           text: Assignment4
-        - href: Lab01.html
+        - href: "#"  # Placeholder link
+          text: Assignment5
+        - href: "#"  # Placeholder link
+          text: Assignment6
+        - href: "#"  # Placeholder link
+          text: Assignment7
+        - href: "#"  # Placeholder link
+          text: Assignment8
+        - text: Labs
+        - href: "#"  # Placeholder link
           text: Lab01
-        - href: Lab02.html
+        - href: "#"  # Placeholder link
           text: Lab02
-        - href: Lab03.html
+        - href: "#"  # Placeholder link
           text: Lab03
-        
+       
 format:
   html:
     theme: superhero
     css: styles.css
     toc: true
 
-editor: visual
+editor: visual 
 

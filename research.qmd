@@ -1,0 +1,10 @@
+---
+title: "Research"
+---
+
+My area of research is Cybersecurity and Information Systems, particularly as applied local governments and nonprofit organizations. As there is a limited amount of research in this area of inquiry in the general field of Public Affairs, there are numerous conceptual areas I'm investigating; some of these areas are:
+
+1.  Local government spending and budget allocation following a cyber-attack.
+2.  Evaluating cyber-threats focused on local governments and nonprofit organizations.
+3.  The role of capital investment spending in supporting local governments' financial recovery from a cyber-attack.
+4.  Investigating current research in fields outside of Public Affairs that may be used to develop cybersecurity management strategies to improve local government and nonprofit cybersecurity resiliency.

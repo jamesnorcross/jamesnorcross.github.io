@@ -2,6 +2,6 @@
 title: "About"
 ---
 
-This webpage is part of an endeavor of learning in my current doctoral studies to expand my abilities in the field of Data Science. My hopes is through data mining and collaboration with research peers, I can improve my abilities in the collection of data for my current and future research interests.
+My name is James S. Norcross and I am currently a final year Doctoral Candidate in the Public and Nonprofit Management program in the field of Public Affairs at the University of Texas at Dallas. I am also a full-time faculty in the Department of Cybersecurity in the School of ETMS at Dallas College. I teach courses in Cybersecurity, Computer Information Systems, and the use of AI/ML in these fields. Upon completing my PhD, it is my intent to seek a position with a university in the Northeast region of the United States to be closer to family and to have a chance of seeing snow in the winter season. This webpage was developed to show my work and as part of my ongoing studies in the field of Data Science for Social Sciences. If you wish to contact me regarding any of my material on this webpage or my future career plans, please feel free to connect with me at:
 
-I work as full-time faculty at Dallas College in the School of Engineering, Technology, Mathematics, and Sciences. I teach courses in information security fundamentals, cybersecurity analysis and operations, and enterprise networking systems.
+Email:  James.Norcross@UTDallas.edu
